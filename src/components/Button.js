@@ -2,9 +2,9 @@ import React from "react";
 
 function Button() {
   return (
-    <div>
-      <button>Email</button>
-      <button>LinkedIn</button>
+    <div className="btn">
+      <button className="btn-e">Email</button>
+      <button className="btn-l">LinkedIn</button>
     </div>
   );
 }

@@ -5,9 +5,9 @@ import twitter from "../images/icon-twitter.svg"
 
 function Footer() {
     return (
-        <div>
+        <div className="li">
             <img src={faceBook} />
-        <img src={instagram} />
+            <img src={instagram} />
             <img src={twitter} />
         </div>
     )
